@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table th {
+    min-width: 8rem;
+}
+
+.selectableColumn {
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    margin: 1rem 0 2rem;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+}
+
+.disabled {
+    color: gray;
+    cursor: not-allowed;
+}
+
+.active {
+    background-color: #cbedfa;
+}
+
+.page {
+    display: flex;
+    align-items: center;
+    padding: .2rem .3rem;
+    cursor: pointer;
+}
